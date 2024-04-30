@@ -10,7 +10,7 @@ import { NavLink } from "./navLink";
 export const Nav = ()=> {
     const [openMenu, setOpenMenu] = useState(false)
     return(
-        <nav className={`w-screen h-12 sm:h-16 fixed flex items-center justify-center px-5 z-50 shadow-sm transition-all duration-300`}>
+        <nav className={`w-screen bg-background h-12 sm:h-16 fixed flex items-center justify-center px-5 z-50 shadow-sm transition-all duration-300`}>
             <div className="container w-full h-full flex justify-center items-center mx-auto">
                 <div className="w-full h-full flex justify-between items-center">
                     <a href="#header">
