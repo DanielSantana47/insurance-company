@@ -3,16 +3,13 @@ import { TypewriterEffectSmooth } from "../ui/typewriter-effect";
 export function Title() {
   const words = [
     {
-      text: "Build",
+      text: "Life",
     },
     {
-      text: "awesome",
+      text: "With",
     },
     {
-      text: "apps",
-    },
-    {
-      text: "with",
+      text: "More",
     },
     {
       text: "Security.",

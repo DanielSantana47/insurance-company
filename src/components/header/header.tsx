@@ -14,10 +14,7 @@ export const Header = ()=> {
                     <Title/>
                 </h1>
                 <div className="">
-                    <Lottie onComplete={()=>{
-                        phoneref.current?.setDirection(1)
-                        phoneref.current?.play()
-                    }} lottieRef={phoneref} loop={false} animationData={svg} className="w-[500px]"/>
+                    <Lottie lottieRef={phoneref} loop={true} animationData={svg} className="w-[300px] sm:w-[500px]"/>
                 </div>
             </div>
         </header>

@@ -9,17 +9,17 @@ import { TeamCardType } from "@/types/teamCardType";
 export function TeamCard({title,description,src}: TeamCardType) {
   return (
     <CardContainer className="inter-var">
-      <CardBody className="relative flex flex-col items-center group/card  hover:shadow-2xl hover:shadow-primary/50 bg-card/50 hover:border-primary/30 w-auto  h-auto rounded-3xl p-6 border  transition-all duration-500">
+      <CardBody className="relative flex flex-col items-center group/card  hover:shadow-2xl hover:shadow-primary/50 bg-card/50 hover:border-primary/30 max-w-[200px] sm:max-w-[350px] sm:w-auto h-auto rounded-3xl p-6 border  transition-all duration-500">
         <CardItem
           translateZ="40"
-          className="text-3xl font-bold text-neutral-600 dark:text-white w-full text-center mx-auto"
+          className="text-xl sm:text-2xl md:text-3xl font-bold text-neutral-600 dark:text-white w-full text-center mx-auto"
         >
           {title}
         </CardItem>
         <CardItem
           as="p"
           translateZ="40"
-          className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300 w-full text-center"
+          className="text-neutral-500 text-xs sm:text-sm max-w-sm mt-2 dark:text-neutral-300 w-full text-center"
         >
           {description}
         </CardItem>
@@ -28,16 +28,16 @@ export function TeamCard({title,description,src}: TeamCardType) {
             src={src}
             height="1000"
             width="1000"
-            className="h-72 w-full object-cover rounded-xl group-hover/card:shadow-xl"
+            className="h-36 sm:h-72 w-full object-cover rounded-xl group-hover/card:shadow-xl"
             alt="thumbnail"
           />
         </CardItem>
-        <div className="flex justify-between items-center mt-20">
+        <div className="flex justify-between items-center mt-4 sm:mt-20">
         
           <CardItem
             translateZ={30}
             as="button"
-            className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
+            className="px-2 sm:px-4 py-1 sm:py-2 rounded-lg sm:rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
           >
             Social media
           </CardItem>

@@ -11,7 +11,7 @@ import { MdOutlineSecurity } from "react-icons/md";
 
 export const AboutCard = ({body,icon,title}: AboutUsCardType)=> {
     return(
-        <Card className="border-primary/40 max-w-96 flex flex-col items-center gap-4 group hover:border-primary transition-all duration-500 overflow-hidden">
+        <Card className="border-primary/40 max-w-96 mx-auto flex flex-col items-center gap-4 group hover:border-primary transition-all duration-500 overflow-hidden">
             <CardHeader>
                 <div className="text-primary text-7xl mb-4 w-full text-center">
                     {icon}

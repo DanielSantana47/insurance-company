@@ -11,7 +11,7 @@ import { FaIdCard } from "react-icons/fa";
 
 export function Cards() {
   return (
-    <div className="w-full mx-auto px-8">
+    <div className="w-full mx-auto ">
       <HoverEffect items={projects} />
     </div>
   );
