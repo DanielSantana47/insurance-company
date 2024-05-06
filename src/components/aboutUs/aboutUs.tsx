@@ -15,7 +15,7 @@ export const AboutUs = ()=> {
             />
             <AboutCard
                 icon={<PiHandshakeDuotone/>}
-                title="trust"
+                title=" trust"
                 body="At voluptates accusamus qui unde vitae qui quidem numquam. Non alias reprehenderit eum quisquam culpa ea vero consequuntur qui tempore corporis."
             />
             <AboutCard
