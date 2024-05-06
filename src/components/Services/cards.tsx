@@ -21,35 +21,35 @@ export const projects = [
     icon: <FaUnlockAlt/>,
     title: "Privacy",
     description:
-      "A technology company that builds economic infrastructure for the internet.",
+      "At voluptates accusamus qui unde vitae qui quidem numquam. Non alias reprehenderit eum quisquam culpa ea vero consequuntur qui tempore corporis.",
     link: "https://stripe.com",
   },
   {
     icon: <FaCar/>,
     title: "Veicle",
     description:
-      "A streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.",
+      "At voluptates accusamus qui unde vitae qui quidem numquam. Non alias reprehenderit eum quisquam culpa ea vero consequuntur qui tempore corporis.",
     link: "https://netflix.com",
   },
   {
     icon: <FaHeartbeat/>,
     title: "Life",
     description:
-      "A multinational technology company that specializes in Internet-related services and products.",
+      "At voluptates accusamus qui unde vitae qui quidem numquam. Non alias reprehenderit eum quisquam culpa ea vero consequuntur qui tempore corporis.",
     link: "https://google.com",
   },
   {
     icon: <FaHospital/>,
     title: "Healt",
     description:
-      "A technology company that focuses on building products that advance Facebook's mission of bringing the world closer together.",
+      "At voluptates accusamus qui unde vitae qui quidem numquam. Non alias reprehenderit eum quisquam culpa ea vero consequuntur qui tempore corporis.",
     link: "https://meta.com",
   },
   {
     icon: <MdOutlineVpnLock/>,
     title: "Navigation",
     description:
-      "A multinational technology company focusing on e-commerce, cloud computing, digital streaming, and artificial intelligence.",
+      "At voluptates accusamus qui unde vitae qui quidem numquam. Non alias reprehenderit eum quisquam culpa ea vero consequuntur qui tempore corporis.",
     link: "https://amazon.com",
   },
   {
